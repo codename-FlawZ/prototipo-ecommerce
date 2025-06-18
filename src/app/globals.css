@@ -2,12 +2,13 @@
 @import "tailwindcss";
 
 :root {
-  --bg-main: oklch(96.8% 0.007 247.896);
+  --bg-main: oklch(98.7% 0.026 102.212);
 }
 
 body {
   font-family: "Inter", sans-serif;
   background: var(--bg-main);
+  scroll-behavior: smooth;
 }
 
 .section {
@@ -15,11 +16,15 @@ body {
 }
 
 .header {
-  @apply bg-neutral-600/30 container p-3 rounded-b-lg shadow-lg
+  @apply container w-full p-7 pb-10 bg-transparent
 }
 
-.navbar {
-  @apply flex justify-between items-center gap-5 
+.desktop-navbar {
+  @apply flex-col items-center gap-5 text-xl max-sm:hidden overflow-hidden
+}
+
+.mobile-navbar {
+  @apply md:hidden flex justify-between items-center py-4 overflow-hidden bg-transparent
 }
 
 .navbar-links {
@@ -27,7 +32,19 @@ body {
 }
 
 .links {
-  @apply font-medium hover:text-slate-500 hover:font-black transition-all ease-in-out duration-250 cursor-pointer
+  @apply font-light uppercase text-sm hover:text-slate-500 transition-all ease-in-out duration-250 cursor-pointer
+}
+
+.navbar-icons {
+  @apply hover:text-slate-500 transition-colors ease-in-out duration-200 text-base
+}
+
+.notification {
+  @apply px-4 flex fixed w-full justify-between items-center font-light uppercase text-sm max-sm:text-xs bg-neutral-800 text-neutral-100 p-1
+}
+
+strong {
+  @apply font-semibold text-neutral-500
 }
 
 /* Scrollbar */
