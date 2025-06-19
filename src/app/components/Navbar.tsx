@@ -19,29 +19,29 @@ export default function Navbar() {
                 {/* Desktop version from the navbar */}
                 <div className="desktop-navbar">
                     <div className="flex justify-evenly py-5 items-center">
-                        <a href="#Home" className="font-black text-3xl uppercase">Logo</a>
+                        <Link href="/" className="logo">Logo</Link>
                     </div>
                     <ul className="navbar-links">
                         <li className="links">
-                            <Link href="/Contact">Contact</Link>
+                            <Link href="/contact">Contact</Link>
                         </li>
                         <li className="links">
-                            <Link href="/Men">Men</Link>
+                            <Link href="/men">Men</Link>
                         </li>
                         <li className="links">
-                            <Link href="/Women">Women</Link>
+                            <Link href="/women">Women</Link>
                         </li>
                         <li className="links">
-                            <Link href="/Trending">Trending</Link>
+                            <Link href="/trending">Trending</Link>
                         </li>
                         <li className="links">
-                            <Link href="/Brands">Brands</Link>
+                            <Link href="/brands">Brands</Link>
                         </li>
                         <li className="inline-flex flex-row px-5 gap-5">
-                            <Link href="/Login" className="links">
+                            <Link href="/login" className="links">
                                 <LuUserRound />
                             </Link>
-                            <Link href="/Shopping" className="links">
+                            <Link href="/shopping" className="links">
                                 <IoBagHandleOutline />
                             </Link>
                         </li>
@@ -50,7 +50,7 @@ export default function Navbar() {
                 {/* Mobile version from the navbar */}
                 <div className="mobile-navbar">
                     <div className="flex items-center">
-                        <Link href="/Home" className="font-black text-3xl uppercase">Logo</Link>
+                        <Link href="/" className="logo">Logo</Link>
                     </div>
                     <button 
                      className="p-5 rounded-full active:text-neutral-100 transition-colors ease-in duration-200"
@@ -75,25 +75,25 @@ export default function Navbar() {
                 >
                     <ul className="list-none p-0 m-0">
                         <li className="mobile-navbar-links">
-                            <Link href="/Contact" onClick={toggleMobileMenu} className="links block">Contact</Link>
+                            <Link href="/contact" onClick={toggleMobileMenu} className="links block">Contact</Link>
                         </li>
                         <li className="mobile-navbar-links">
-                            <Link href="/Men" onClick={toggleMobileMenu} className="links block">Men</Link>
+                            <Link href="/men" onClick={toggleMobileMenu} className="links block">Men</Link>
                         </li>
                         <li className="mobile-navbar-links">
-                            <Link href="/Women" onClick={toggleMobileMenu} className="links block">Women</Link>
+                            <Link href="/women" onClick={toggleMobileMenu} className="links block">Women</Link>
                         </li>
                         <li className="mobile-navbar-links">
-                            <Link href="/Trending" onClick={toggleMobileMenu} className="links block">Trending</Link>
+                            <Link href="/trending" onClick={toggleMobileMenu} className="links block">Trending</Link>
                         </li>
                         <li className="mobile-navbar-links">
-                            <Link href="/Brands" onClick={toggleMobileMenu} className="links block">Brands</Link>
+                            <Link href="/brands" onClick={toggleMobileMenu} className="links block">Brands</Link>
                         </li>
                         <li className="py-4 px-5 border-t border-neutral-200 mt-4 flex justify-around">
-                            <Link href="/Login" onClick={toggleMobileMenu} className="links">
+                            <Link href="/login" onClick={toggleMobileMenu} className="links">
                                 <LuUserRound />
                             </Link>
-                            <Link href="/Shopping" onClick={toggleMobileMenu} className="links">
+                            <Link href="/shopping" onClick={toggleMobileMenu} className="links">
                                 <IoBagHandleOutline />
                             </Link>
                         </li>

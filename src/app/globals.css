@@ -51,6 +51,18 @@ strong {
   @apply font-semibold text-neutral-500
 }
 
+.login-container {
+  @apply flex flex-col items-center bg-neutral-100 text-neutral-800 w-[40%] h-[90%] rounded-3xl shadow-2xl
+}
+
+.logo {
+  @apply font-black text-3xl uppercase
+}
+
+.login-logo {
+  @apply font-black text-5xl uppercase
+}
+
 /* Scrollbar */
 body::-webkit-scrollbar {
 	width: 5px;
