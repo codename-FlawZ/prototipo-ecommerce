@@ -24,11 +24,15 @@ body {
 }
 
 .mobile-navbar {
-  @apply md:hidden flex justify-between items-center py-4 overflow-hidden bg-transparent
+  @apply md:hidden flex justify-between items-center p-5 overflow-hidden bg-transparent
 }
 
 .navbar-links {
   @apply flex justify-center items-center gap-3
+}
+
+.mobile-navbar-links {
+  @apply py-4 px-5 border-b border-neutral-600
 }
 
 .links {
