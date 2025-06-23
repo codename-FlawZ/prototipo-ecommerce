@@ -51,16 +51,44 @@ strong {
   @apply font-semibold text-neutral-500
 }
 
-.login-container {
-  @apply flex flex-col items-center bg-neutral-100 text-neutral-800 w-[40%] h-[90%] rounded-3xl shadow-2xl
+.login-desktop-container {
+  @apply flex flex-col items-center bg-neutral-100 text-neutral-800 w-[40%] h-[90%] rounded-3xl shadow-2xl max-sm:hidden
 }
 
 .logo {
   @apply font-black text-3xl uppercase
 }
 
+.login-desktop-logo {
+  @apply w-full m-3 p-3 px-10 flex flex-row justify-between items-center
+}
+
 .login-logo {
   @apply font-black text-5xl uppercase
+}
+
+.mobile-login-container {
+  @apply md:hidden flex flex-col items-center rounded-3xl bg-neutral-100 w-full h-[75%] shadow-2xl
+}
+
+.mobile-logo-container {
+  @apply w-full m-[0.5px] p-4 px-10 flex flex-row justify-between items-center
+}
+
+.mobile-socials-container {
+  @apply flex flex-row items-center gap-2 py-4 w-[60%]
+}
+
+.mobile-auth-socials {
+  @apply hover:shadow-xl flex items-center p-3 px-5 border border-neutral-800 rounded-2xl text-lg cursor-pointer hover:bg-neutral-800 hover:border-neutral-200 transition-colors ease-in-out duration-200
+}
+
+.mobile-logo {
+  @apply font-black text-2xl uppercase
+}
+
+.mobile-login-input {
+  @apply w-[70%] h-10 rounded-2xl border border-neutral-500 shadow-2xl px-3 text-neutral-900 focus:outline-neutral-950
 }
 
 .login-input {
