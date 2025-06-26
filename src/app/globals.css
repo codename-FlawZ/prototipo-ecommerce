@@ -12,11 +12,11 @@ body {
 }
 
 .section {
-  @apply w-full h-screen overflow-hidden container
+  @apply w-full min-h-screen container
 }
 
 .header {
-  @apply container w-full p-7 pb-10 bg-transparent
+  @apply container w-full p-1 pb-10 bg-transparent
 }
 
 .desktop-navbar {
@@ -44,7 +44,7 @@ body {
 }
 
 .notification {
-  @apply px-4 flex fixed w-full justify-between items-center font-light uppercase text-sm max-sm:text-xs bg-neutral-800 text-neutral-100 p-1
+  @apply flex relative w-full justify-between items-center font-light uppercase text-sm max-sm:text-xs bg-neutral-800 text-neutral-100 p-1
 }
 
 strong {
@@ -100,7 +100,7 @@ strong {
 }
 
 .hero-desktop-container {
-  @apply inline-flex flex-row justify-evenly items-center
+  @apply inline-flex flex-row justify-evenly items-center max-sm:hidden
 }
 
 .hero-desktop-showcase-container {
@@ -142,11 +142,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-	background-color: black;
+	background-color: transparent;
   }
   
   body::-webkit-scrollbar-thumb {
-	background-color: #D0D0D0;
+	background-color: #0B0B0B ;
 	outline: 1px solid transparent;
 	border-radius: 20rem;
   }

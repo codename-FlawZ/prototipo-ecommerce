@@ -7,9 +7,6 @@ export default function Home() {
     <>
     <section
      className="
-     w-full
-     h-screen
-     z-1
      section
      ">
       <Notification />

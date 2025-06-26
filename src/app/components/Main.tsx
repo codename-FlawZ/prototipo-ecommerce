@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <section className="relative z-1 w-full h-screen section">
+        <section className="relative z-1 w-full min-h-screen section overflow-hidden">
             {/* Desktop Version */}
             <div className="inline-flex flex-col items-center gap-10">
                 <div className="hero-desktop-container">
