@@ -8,9 +8,9 @@ export default function Home() {
             <div className="inline-flex flex-col items-center gap-10">
                 <div className="hero-desktop-container">
                 <div className="hero-desktop-showcase-container">
-                    <img src="/images/Hero-img.png" alt="the new LNNO Coat" className="hero-img"/>
+                    <img src="/images/Hero-img-2.png" alt="the new LNNO Coat" className="hero-img"/>
                 </div>
-                <div className="w-1/2 flex items-center justify-center">
+                <div className="w-1/2 flex items-center justify-center z-2">
                  <div className="hero-text-container">
                     <p className="hero-title">Now introducing</p>
                     <h1 className="hero-subtitle">LNNO Coat®</h1>
