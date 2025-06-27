@@ -19,7 +19,7 @@ export default function Navbar() {
                 {/* Desktop version from the navbar */}
                 <div className="desktop-navbar">
                     <div className="flex justify-evenly py-5 items-center">
-                        <Link href="/" className="logo">Logo</Link>
+                        <Link href="/" className="logo">LNNO</Link>
                     </div>
                     <ul className="navbar-links">
                         <li className="links">
@@ -50,7 +50,7 @@ export default function Navbar() {
                 {/* Mobile version from the navbar */}
                 <div className="mobile-navbar">
                     <div className="flex items-center">
-                        <Link href="/" className="logo">Logo</Link>
+                        <Link href="/" className="logo">LNNO</Link>
                     </div>
                     <button 
                      className="p-5 rounded-full active:text-neutral-100 transition-colors ease-in duration-200"

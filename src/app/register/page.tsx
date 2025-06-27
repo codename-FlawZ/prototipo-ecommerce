@@ -10,7 +10,7 @@ export default function Login() {
             {/* Desktop Version */}
             <div className="login-desktop-container">
                 <div className="w-full m-3 p-3 px-10 flex flex-row justify-between items-center">
-                    <Link href="/" className="login-logo">LOGO</Link>
+                    <Link href="/" className="login-logo">LNNO</Link>
                     <h1 className="font-light text-2xl capitalize">Your account</h1>
                 </div>
                 <div className="w-[60%] h-0.5 rounded-full bg-neutral-950"></div>
@@ -46,7 +46,7 @@ export default function Login() {
             {/* Mobile Verison */}
             <div className="mobile-login-container">
                 <div className="mobile-logo-container">
-                    <Link href="/" className="mobile-logo">LOGO</Link>
+                    <Link href="/" className="mobile-logo">LNNO</Link>
                     <h1 className="font-light text-lg capitalize">Your Account</h1>
                 </div>
                 <div className="w-[60%] h-0.5 rounded-full bg-neutral-950"></div>
