@@ -107,6 +107,10 @@ strong {
   @apply w-1/2 h-full px-6 flex items-center
 }
 
+.hero-shocase-product-1 {
+  @apply w-full min-h-screen bg-cover bg-center flex items-center
+}
+
 .hero-img {
   @apply object-cover w-full h-full rounded-xl
 }
