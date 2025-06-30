@@ -1,5 +1,6 @@
 'use client'
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -35,19 +36,30 @@ export default function Home() {
                     <img src="/images/Hero-img.png" alt="the new LNNO Coat" className="hero-img"/>
                 </div>
             </div>
-            <div className="hero-desktop-container">
-                <div className="inline-flex flex-col items-center w-full">
-                    <div className="text-6xl font-black uppercase text-center pb-5">
-                        <h1>About us</h1>
-                    </div>
-                    <div className="w-1/2 flex items-center justify-center gap-10">
-                        <div className="about-logo-container">
-                            <img src="/images/Logo.png" alt="" className="hero-img" />
-                        </div>
-                        <div className="about-text-container">
-                            <h1 className="text-5xl font-light capitlize pb-3">Our Story</h1>
-                            <p className="w-full text-xl">LNNO Was born in the wish to make high-quality/premium outfits into a reality to more people wich couldn't afford anything on this level of quality before, using eco high quality techniques to make a much cheaper version from the premium outfits into a relaity.</p>
-                        </div>
+            <div className="container mx-auto flex flex-col md:flex-row items-center gap-10 px-6 pt-8">
+                <div className="flex-1 flex justify-center">
+                    <Image
+                        src="/images/Logo.png"
+                        alt="LNNO Logo"
+                        width={350}
+                        height={350}
+                        className="object-contain rounded-2xl"
+                    />
+                </div>
+                <div className="flex-1">
+                    <h2 className="text-4xl font-light uppercase mb-6">About us</h2>
+                    <p className="text-lg mb-4">
+                        LNNO is a premium fashion brand known for delivering unmatched design and quality,
+                        blending modern trends with timeless elegance.
+                    </p>
+                    <p className="text-lg mb-6">
+                        Founded with the vision of elevating everyday style, LNNO focuses on creating pieces that
+                        combine top-tier materials with refined craftsmanship, inspiring confidence and desire
+                        in every detail.
+                    </p>
+                    <div className="flex flex-row items-center gap-5">
+                        <button className="hero-btn-1"><Link href="/brands">Look Brands</Link></button>
+                        <button className="hero-btn-2"><Link href="/contact">Contact us</Link></button>
                     </div>
                 </div>
             </div>
