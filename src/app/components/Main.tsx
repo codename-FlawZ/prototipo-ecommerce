@@ -35,15 +35,19 @@ export default function Home() {
                     <img src="/images/Hero-img.png" alt="the new LNNO Coat" className="hero-img"/>
                 </div>
             </div>
-            <div className="pt-5 inline-flex flex-col items-center w-full">
-                <div className="text-6xl font-black uppercase text-center">
-                    <h1>About us</h1>
-                </div>
-                <div className="w-1/2 flex items-center justify-center">
-                    <div className="hero-desktop-showcase-container"></div>
-                    <div className="hero-text-container">
-                        <h1 className="text-4xl font-light capitlize">Our Story</h1>
-                        <p>Description</p>
+            <div className="hero-desktop-container">
+                <div className="inline-flex flex-col items-center w-full">
+                    <div className="text-6xl font-black uppercase text-center pb-5">
+                        <h1>About us</h1>
+                    </div>
+                    <div className="w-1/2 flex items-center justify-center gap-10">
+                        <div className="about-logo-container">
+                            <img src="/images/Logo.png" alt="" className="hero-img" />
+                        </div>
+                        <div className="about-text-container">
+                            <h1 className="text-5xl font-light capitlize pb-3">Our Story</h1>
+                            <p className="w-full text-xl">LNNO Was born in the wish to make high-quality/premium outfits into a reality to more people wich couldn't afford anything on this level of quality before, using eco high quality techniques to make a much cheaper version from the premium outfits into a relaity.</p>
+                        </div>
                     </div>
                 </div>
             </div>

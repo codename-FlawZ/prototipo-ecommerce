@@ -119,6 +119,14 @@ strong {
   @apply max-w-md flex flex-col p-8 text-center gap-2
 }
 
+.about-text-container {
+  @apply w-1/2 flex flex-col p-8 text-center gap-2
+}
+
+.about-logo-container {
+  @apply w-1/2 h-full px-6 flex items-center 
+}
+
 .hero-title {
   @apply text-xl font-light uppercase
 }
