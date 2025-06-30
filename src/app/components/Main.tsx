@@ -35,6 +35,18 @@ export default function Home() {
                     <img src="/images/Hero-img.png" alt="the new LNNO Coat" className="hero-img"/>
                 </div>
             </div>
+            <div className="pt-5 inline-flex flex-col items-center w-full">
+                <div className="text-6xl font-black uppercase text-center">
+                    <h1>About us</h1>
+                </div>
+                <div className="w-1/2 flex items-center justify-center">
+                    <div className="hero-desktop-showcase-container"></div>
+                    <div className="hero-text-container">
+                        <h1 className="text-4xl font-light capitlize">Our Story</h1>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
     );

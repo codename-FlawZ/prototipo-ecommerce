@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Welcome to LOGO",
+  title: "Welcome to LNNO",
   description: "Your next favorite clothing store is waiting for you!",
 };
 
