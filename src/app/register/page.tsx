@@ -39,7 +39,7 @@ export default function Login() {
                      placeholder="Confirm Password"
                      className="login-input" />
                 </div>
-                <div className="flex flex-col items-center gap-6">
+                <div className="flex flex-col items-center">
                     <button className="bg-neutral-900 rounded-xl text-neutral-200 p-4 px-7 text-lg hover:border hover:border-neutral-950 hover:bg-transparent hover:text-neutral-950 transition-colors ease-in-out duration-200 hover:shadow-xl cursor-pointer"><Link href="/">Register now</Link></button>
                 </div>
             </div>

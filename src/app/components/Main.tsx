@@ -1,9 +1,11 @@
 'use client'
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "./Footer";
 
 export default function Home() {
     return (
+        <>
         <section className="relative z-1 w-full min-h-screen section overflow-hidden">
             {/* Desktop Version */}
             <div className="inline-flex flex-col items-center gap-10">
@@ -36,7 +38,7 @@ export default function Home() {
                     <img src="/images/Hero-img.png" alt="the new LNNO Coat" className="hero-img"/>
                 </div>
             </div>
-            <div className="container mx-auto flex flex-col md:flex-row items-center gap-10 px-6 pt-8">
+            <div className="container mx-auto flex flex-col md:flex-row items-center gap-10 px-6 pt-8 pb-30">
                 <div className="flex-1 flex justify-center">
                     <Image
                         src="/images/Logo.png"
@@ -65,5 +67,7 @@ export default function Home() {
             </div>
             </div>
         </section>
+        <Footer />
+        </>
     );
 }

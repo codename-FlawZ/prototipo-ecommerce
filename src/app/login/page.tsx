@@ -25,7 +25,7 @@ export default function Login() {
                         <FaFacebookSquare />
                     </div>
                 </div>
-                <div className="w-full flex flex-col items-center py-4 mb-6 p-3 gap-10">
+                <div className="w-full flex flex-col items-center py-4 mb-6 p-3 gap-6">
                     <input 
                      type="email" 
                      placeholder="Email"
@@ -35,7 +35,7 @@ export default function Login() {
                      placeholder="Password"
                      className="login-input" />
                 </div>
-                <div className="flex flex-col items-center gap-6">
+                <div className="flex flex-col items-center gap-6 pb-4">
                     <button className="bg-neutral-900 rounded-xl text-neutral-200 p-4 px-7 text-lg hover:border hover:border-neutral-950 hover:bg-transparent hover:text-neutral-950 transition-colors ease-in-out duration-200 hover:shadow-xl cursor-pointer"><Link href="/">Login now</Link></button>
                     <div className="">
                         <p className="cursor-default">Don't have an account? <Link href="/register" className="text-neutral-600 underline cursor-pointer">Register now</Link></p>
@@ -72,7 +72,7 @@ export default function Login() {
                 </div>
                 <div className="flex flex-col items-center gap-4">
                     <button className="bg-neutral-900 rounded-xl text-neutral-200 p-3 px-5 text-base hover:border hover:border-neutral-950 hover:bg-transparent hover:text-neutral-950 transition-colors ease-in-out duration-200 hover:shadow-xl cursor-pointer"><Link href="/">Login now</Link></button>
-                    <div className="text-sm">
+                    <div className="text-sm pb-3">
                         <p className="cursor-default">Don't have an account? <Link href="/register" className="text-neutral-600 underline cursor-pointer">Register now</Link></p>
                     </div>
                 </div>
