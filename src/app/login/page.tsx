@@ -18,7 +18,7 @@ export default function Login() {
                     <div className="login-auth-socials">
                         <FcGoogle />
                     </div>
-                    <div className="login-auth-socials text-neutral-600">
+                    <div className="login-auth-socials text-neutral-600 hover:text-neutral-200">
                         <SiApple />
                     </div>
                     <div className="login-auth-socials text-blue-600">
