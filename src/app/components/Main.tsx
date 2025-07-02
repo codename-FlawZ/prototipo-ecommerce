@@ -6,7 +6,7 @@ import Footer from "./Footer";
 export default function Home() {
     return (
         <>
-        <section className="relative z-1 w-full min-h-screen section overflow-hidden">
+        <section className="relative w-full min-h-screen section overflow-hidden">
             <div className="inline-flex flex-col items-center gap-10">
                 <div className="hero-desktop-container hero-shocase-product-1" style={{ backgroundImage: "url('/images/Hero-img-2.png')"}}>
                 <div className="hero-desktop-showcase-container">
