@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="bg-neutral-700 my-5 h-[1px] w-full" />
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="font-semibold text-gray text-xs cursor-default">Copright @ 2025 LNNO Inc.</p>
-          <div className="inline-flex justify-evenly gap-3 text-sm">
+          <p className="font-semibold text-gray text-xs max-sm:text[0.6rem] cursor-default">Copyright @ 2025 LNNO Inc.</p>
+          <div className="inline-flex justify-evenly gap-3 text-sm max-sm:hidden">
               <p className="footer-links">
                 <Link href="/contact">Contact</Link>
               </p>
@@ -31,7 +31,7 @@ export default function Footer() {
               </p>
           </div>
         </div>
-        <p className="font-semibold text-gray text-xs cursor-default">Project created by: Pedro H. Alexandre. All rights reserved.</p>
+        <p className="font-semibold text-gray text-xs cursor-default max-sm:text-[0.6rem]">Project created by: Pedro H. Alexandre. All rights reserved.</p>
       </div>
     </footer>
     );

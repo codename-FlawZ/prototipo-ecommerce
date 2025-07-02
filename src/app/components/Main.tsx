@@ -7,7 +7,6 @@ export default function Home() {
     return (
         <>
         <section className="relative z-1 w-full min-h-screen section overflow-hidden">
-            {/* Desktop Version */}
             <div className="inline-flex flex-col items-center gap-10">
                 <div className="hero-desktop-container hero-shocase-product-1" style={{ backgroundImage: "url('/images/Hero-img-2.png')"}}>
                 <div className="hero-desktop-showcase-container">
@@ -45,16 +44,16 @@ export default function Home() {
                         alt="LNNO Logo"
                         width={350}
                         height={350}
-                        className="object-contain rounded-2xl"
+                        className="object-contain rounded-2xl max-sm:w-[95px] max-sm:h-[95px] shadow-xl"
                     />
                 </div>
-                <div className="flex-1">
-                    <h2 className="text-4xl font-light uppercase mb-6">About us</h2>
-                    <p className="text-lg mb-4">
+                <div className="flex-1 max-sm:flex max-sm:flex-col max-sm:items-center">
+                    <h2 className="text-4xl font-light uppercase mb-6 max-sm:text-2xl">About us</h2>
+                    <p className="text-lg mb-4 max-sm:text-base">
                         LNNO is a premium fashion brand known for delivering unmatched design and quality,
                         blending modern trends with timeless elegance.
                     </p>
-                    <p className="text-lg mb-6">
+                    <p className="text-lg mb-6 max-sm:text-base">
                         Founded with the vision of elevating everyday style, LNNO focuses on creating pieces that
                         combine top-tier materials with refined craftsmanship, inspiring confidence and desire
                         in every detail.

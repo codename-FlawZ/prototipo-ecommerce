@@ -44,7 +44,7 @@ body {
 }
 
 .notification {
-  @apply flex relative w-full justify-between items-center font-light uppercase text-sm max-sm:text-xs bg-neutral-800 text-neutral-100 p-1
+  @apply flex relative w-full justify-between items-center font-light uppercase text-sm max-sm:text-[0.55rem] bg-neutral-800 text-neutral-100 p-1
 }
 
 strong {
@@ -104,7 +104,7 @@ strong {
 }
 
 .hero-desktop-showcase-container {
-  @apply w-1/2 h-full px-6 flex items-center
+  @apply w-1/2 h-full px-6 flex items-center max-sm:w-full
 }
 
 .hero-shocase-product-1 {
